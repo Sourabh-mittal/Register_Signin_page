@@ -21,25 +21,14 @@ class Registration extends React.Component {
         <h1>Registration</h1>
         <p>Please fill in this form to create an account.</p>
         <Label htmlFor="name" value="Name" />
-        <Input
-          onChange={this.onChange}
-          type="text"
-          placeholder="Enter Name"
-          name="name"
-        />
+        <Input type="text" placeholder="Enter Name" name="name" />
         <Label htmlFor="email" value="Email" />
         <Input type="email" placeholder="Enter Email" name="email" />
         <Label htmlFor="email" value="Password" />
 
-        <Input
-          onChange={this.onChange}
-          type="password"
-          placeholder="Enter Password"
-          name="password"
-        />
+        <Input type="password" placeholder="Enter Password" name="password" />
         <Label htmlFor="email" value="Re-enter Password" />
         <Input
-          onChange={this.onChange}
           type="password"
           placeholder="Re-Enter Password"
           name="password"

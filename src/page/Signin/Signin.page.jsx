@@ -22,12 +22,7 @@ class Signin extends Component {
         <Label htmlFor="email" value="Email" />
         <Input type="email" placeholder="Enter Email" name="email" />
         <Label htmlFor="email" value="Password" />
-        <Input
-          onChange={this.onChange}
-          type="password"
-          placeholder="Enter Password"
-          name="password"
-        />
+        <Input type="password" placeholder="Enter Password" name="password" />
         <div className="remember-me">
           <Input type="checkbox" name="remember-me" />
           <Label htmlFor="remember-me" value="Remember me" />
