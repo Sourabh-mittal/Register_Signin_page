@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+.signin-page {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.remember-me {
+  display: flex;
+}
