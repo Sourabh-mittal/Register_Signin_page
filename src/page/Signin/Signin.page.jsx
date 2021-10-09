@@ -29,8 +29,8 @@ class Signin extends Component {
           name="password"
         />
         <div className="remember-me">
-          <Input type="checkbox" name="remember" />
-          <Label htmlFor="email" value="Remember me" />
+          <Input type="checkbox" name="remember-me" />
+          <Label htmlFor="remember-me" value="Remember me" />
         </div>
         <Button className="signinbtn" value="Sign In" /> <br />
       </div>

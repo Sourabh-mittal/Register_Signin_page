@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   padding: 5px;
+  margin: 5px 0px;
 }
 
 .signin-page {
@@ -11,4 +12,6 @@
 
 .remember-me {
   display: flex;
+  flex-direction: row;
+  align-items: center;
 }
